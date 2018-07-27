@@ -1,0 +1,6 @@
+interface Map {
+	attribute double x;
+	attribute double y;
+	attribute double height;
+	attribute double width;
+};

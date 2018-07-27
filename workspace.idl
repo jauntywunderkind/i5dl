@@ -1,0 +1,8 @@
+interface Workspace {
+	attribute long num;
+	attribute DOMString name ;
+	attribute bool visible;
+	attribute bool focused;
+	attribute Map rect;
+	attribute DOMString output;
+};

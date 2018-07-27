@@ -1,0 +1,1 @@
+enum Type { "root, "output", "con", "floating_con", "workspace", "dockarea" };

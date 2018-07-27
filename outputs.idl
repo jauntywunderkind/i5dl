@@ -1,0 +1,7 @@
+interface Outputs {
+	attribute DOMString name;
+	attribute bool active;
+	attribute bool primary;
+	attribute DOMString current_workspace;
+	attribute Map rect;
+}

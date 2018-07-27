@@ -1,0 +1,19 @@
+interface Container {
+	attribute long id;
+	attribute DOMString name;
+	attribute Type type;
+	attribute Border border;
+	attribute long current_border_width;
+	attribute Layout layout;
+	attribute double percent;
+	attribute Map rect;
+	attribute Map window_rect;
+	attribute Map deco_rect;
+	attribute Map geometry;
+	attribute UVString window; // was int. now an id?
+	attribute bool urgent;
+	attribute bool focused;
+	attribute sequence<UVString> focus;
+	attribute sequence<Container> nodes;
+	attribute sequence<Container> floating_nodes;
+};	

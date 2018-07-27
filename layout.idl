@@ -1,0 +1,1 @@
+enum Layout { "splith", "splitv", "stacked", "tabbed", "dockarea", "output" };
